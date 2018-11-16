@@ -152,10 +152,12 @@ createRestaurantHTML = restaurant => {
   const div = document.createElement('div');
   div.className = 'rest-name';
 
+  // restaurant icon
   const restIcon = document.createElement('i');
   restIcon.className = 'fa fa-utensils';
   div.append(restIcon);
 
+  // restaurant name
   const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   name.setAttribute('tabindex', '0');
@@ -166,6 +168,7 @@ createRestaurantHTML = restaurant => {
   const addDiv = document.createElement('div');
   addDiv.className = 'address-div';
 
+  // location icon for address
   const locationIcon = document.createElement('i');
   locationIcon.className = 'fa fa-map-marker-alt';
   addDiv.append(locationIcon);
@@ -173,6 +176,7 @@ createRestaurantHTML = restaurant => {
   const addNDiv = document.createElement('div');
   addNDiv.className = 'specific-address-div';
 
+  // address with city and street
   const neighborhood = document.createElement('p');
   neighborhood.innerHTML = restaurant.neighborhood;
   addNDiv.append(neighborhood);
@@ -185,6 +189,7 @@ createRestaurantHTML = restaurant => {
 
   li.append(addDiv);
 
+  // button for going to the info page of restaurant
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
