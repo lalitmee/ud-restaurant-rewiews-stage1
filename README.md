@@ -9,7 +9,7 @@
 
 ## Description
 
-    * Project created as part of the Udacity Front-End Developer Nanodegree.
+    * This Project was created as part of the Udacity Front-End Developer Scholarship Nanodegree.
 
 ## Project Instructions
 
