@@ -9,11 +9,7 @@
 
 ## Description
 
-- This Project was created as part of the Udacity Front-End Developer Scholarship Nanodegree.
-
-## Instructions
-
-In this project, a static webpage that lacks accessibility is given to be converted into a mobile-ready web application. The design must beresponsive on different sized displays and accessible for screen reader use. It will also be added a service worker to begin the process of creating aseamless offline experience for the users.
+- This Project was created as part of the Udacity Front-End Developer Scholarship Nanodegree. This is an application which works on the basis of **service workers** concept. Service workers helps our website to run without any internet connection. And other things you will know when you will run the website first time with internet connection so that service worker can do it's work
 
 ## Run the Application
 
@@ -24,6 +20,12 @@ In order to run the application follow these steps:
 ```
 $ git clone https://github.com/lalitmee/ud-restaurant-rewiews-stage1.git
 ```
+
+- `cd ud-restaurant-rewiews-stage1`
+
+- You need to open two terminals. First one for application server and second one for the data for the application
+
+- You need to run the data server on the port **3000**. Sorry for making it static.
 
 - In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
